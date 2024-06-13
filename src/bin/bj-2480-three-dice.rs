@@ -11,7 +11,7 @@ fn main() {
 		.collect();
 	let (n1, n2, n3) = (numbers[0], numbers[1], numbers[2]);
 
-	print!("{}", calc_prize(n1, n2, n3))
+	print!("{}", calc_prize(n1, n2, n3));
 }
 
 fn calc_prize(n1: u32, n2: u32, n3: u32) -> u32 {

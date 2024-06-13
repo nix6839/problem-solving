@@ -6,7 +6,7 @@ fn main() {
 		.collect();
 	let (n1, n2) = (numbers[0], numbers[1]);
 	for n in get_3_4_5_6(n1, n2) {
-		println!("{}", n);
+		println!("{n}");
 	}
 }
 

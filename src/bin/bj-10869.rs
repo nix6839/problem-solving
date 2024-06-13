@@ -5,7 +5,7 @@ fn main() {
 	let (a, b) = (numbers[0], numbers[1]);
 
 	for n in a_operations_b(a, b) {
-		println!("{}", n);
+		println!("{n}");
 	}
 }
 

@@ -7,5 +7,9 @@ edition = "2021"
 default = ["solution1"]
 solution1 = []
 solution2 = []
+solution3 = []
 
 [dependencies]
+
+[lints.clippy]
+pedantic = "warn"

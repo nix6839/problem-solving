@@ -13,7 +13,7 @@ fn main() {
 	let c: u32 = second_line.trim().parse().unwrap();
 
 	let (ended_hour, ended_minute) = add_minute(a, b, c);
-	print!("{} {}", ended_hour, ended_minute);
+	print!("{ended_hour} {ended_minute}");
 }
 
 fn add_minute(hour: u32, minute: u32, to_add_minute: u32) -> (u32, u32) {

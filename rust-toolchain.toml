@@ -1,3 +1,6 @@
 [toolchain]
+# TODO: 현재 백준은 1.73.0 버전을 사용하고 있지만 Cargo.toml의 `[lints]` 기능을
+# 사용하기 위해 로컬 개발 환경에서는 1.74 버전을 사용. 후에 백준이 1.74 버전 이상으로
+# 컴파일러 버전을 업그레이드 하면 일치하도록 변경.
 # From: https://help.acmicpc.net/language/info
-channel = "1.73.0"
+channel = "1.74.1"

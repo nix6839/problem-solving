@@ -3,7 +3,7 @@ fn main() {
 	std::io::stdin().read_line(&mut line).unwrap();
 	let year: u32 = line.trim().parse().unwrap();
 
-	print!("{}", if is_leap_year(year) { 1 } else { 0 });
+	print!("{}", i32::from(is_leap_year(year)));
 }
 
 fn is_leap_year(year: u32) -> bool {

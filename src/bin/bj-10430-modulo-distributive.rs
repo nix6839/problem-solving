@@ -5,7 +5,7 @@ fn main() {
 	let (a, b, c) = (numbers[0], numbers[1], numbers[2]);
 
 	for n in modulo_distributive(a, b, c) {
-		println!("{}", n);
+		println!("{n}");
 	}
 }
 

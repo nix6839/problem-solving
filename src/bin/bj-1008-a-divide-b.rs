@@ -4,7 +4,7 @@ fn main() {
 	let numbers: Vec<i32> = line.trim().split(' ').map(|n| n.parse().unwrap()).collect();
 	let (a, b) = (numbers[0], numbers[1]);
 
-	print!("{}", a_divide_b(a as f64, b as f64));
+	print!("{}", a_divide_b(f64::from(a), f64::from(b)));
 }
 
 fn a_divide_b(a: f64, b: f64) -> f64 {
