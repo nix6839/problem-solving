@@ -1,0 +1,3 @@
+[toolchain]
+# From: https://help.acmicpc.net/language/info
+channel = "1.73.0"
