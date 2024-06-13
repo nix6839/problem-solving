@@ -2,12 +2,13 @@
 
 ```sh
 just test
-# or
-just test-solution1
 ```
 
 ```sh
+just test-solution1
+# or
 just test-solution2
+# ...
 ```
 
 ```json

@@ -1,7 +1,7 @@
 fn main() {
 	let mut line = String::new();
 	std::io::stdin().read_line(&mut line).unwrap();
-	let numbers: Vec<i32> = line.split(' ').map(|n| n.trim().parse().unwrap()).collect();
+	let numbers: Vec<i32> = line.trim().split(' ').map(|n| n.parse().unwrap()).collect();
 	let (a, b) = (numbers[0], numbers[1]);
 
 	print!("{}", get_a_b_compare_string(a, b));
